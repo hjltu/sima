@@ -13,6 +13,8 @@ https://dialogs.yandex.ru/developer/
 ssl crt:
 openssl req -new -keyout server.pem -out server.pem -x509 -days 365 -nodes -subj '/CN=hjltu.pp.ua/O=hjltu/C=RU'
 
+lib/sn.py RPi serial to password
+
 clients/my.csv Home automation hjmqtt
 https://github.com/hjltu/hjmqtt
 
