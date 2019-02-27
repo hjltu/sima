@@ -151,8 +151,9 @@ class Term(Start):
             self.check_name(text, name) == False):
             return
         out = self.act_dimm({top: ""}, text, top, dimm="-target")
-        if len(out[top]) == 0:
-            return
-        if int(out[top]) >= 10 and int(out[top]) <= 35:
-            return out
-
+        try:
+            out[top+"-target"] /= 2.54
+            if out[top+"-target"] >= 10 and out[top+"-target"] <= 35:
+                return out
+        except:
+            print("ERR in Term")
