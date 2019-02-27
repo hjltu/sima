@@ -10,9 +10,10 @@
 #
 # types:
 #   rele:    for outlets
-#   lights:  light on/off
+#   light:  light on/off
 #   dimm:    for light dimmers
 #   curt:    for door and window covering
+#   term:   for termoreg
 #
 my,00000000xxxxxxxx
 "звук",rele,sonoff
