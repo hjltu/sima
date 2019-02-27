@@ -6,6 +6,8 @@ Skill for Yandex Alice platform, Навык для Яндекс Алисы
 https://github.com/hjltu/hjmqtt<br>
 https://github.com/hjltu/hjconnect<br>
 
+Распознаёт команду управления и отправляет её по MQTT<br>
+
 Может включать/выключать свет,
 подключать/отключать умные розетки,
 открывать закрывать шторы,
