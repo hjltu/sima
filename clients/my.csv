@@ -1,0 +1,19 @@
+# my.csv
+# https://github.com/hjltu/sima
+# author: hjltu@ya.ru, license: MIT/X11
+#
+# csv format:
+#   first row:
+#       name, serial number
+#   accessories:
+#       name, type, topic
+#
+# types:
+#   rele:    for outlets
+#   lights:  light on/off
+#   dimm:    for light dimmers
+#   curt:    for door and window covering
+#
+my,00000000xxxxxxxx
+"звук",rele,sonoff
+"стол",dimm,stol
