@@ -11,7 +11,7 @@ https://tech.yandex.ru/dialogs/alice
 https://dialogs.yandex.ru/developer/
 
 ssl crt:
-openssl req -new -keyout server.pem -out server.pem -x509 -days 365 -nodes -subj '/CN=site.com/O=user/C=RU'
+openssl req -new -keyout crt.pem -out crt.pem -x509 -days 365 -nodes -subj '/CN=site.com/O=user/C=RU'
 
 lib/sn.py RPi serial to password
 
