@@ -7,7 +7,7 @@ author: hjltu@ya.ru, license: MIT/X11
 
 last change: 24-feb-19
 
-python3 sn.py 00000000c6c99a95 26299095
+python3 sn.py 00000000c6c99a96 26299096
 serial number to password
 drop all zeros and convert
 "abcdef" to hexadecimal and
