@@ -42,7 +42,7 @@ onRele = "подключ"
 offRele = "отключ"
 
 # Curtains
-curtains = "штор"
+curtains = "шторы"
 openCurt = "откр"
 closeCurt = "закр"
 
