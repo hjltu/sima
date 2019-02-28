@@ -40,7 +40,7 @@ class Start(object):
     def check_total(self, text):
         """ all same type accesories"""
         if(any(t in self.total for t in text.split()) or
-            self.types in text.split()):
+            any(t in self.types for t in text.split())):
             return True
         return False
 
