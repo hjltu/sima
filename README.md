@@ -14,3 +14,5 @@ https://github.com/hjltu/hjconnect<br>
 подключать/отключать умные розетки,
 открывать/закрывать шторы,
 устанавливать температуру.
+
+Демо: https://youtu.be/XiIFVnCSt-M
